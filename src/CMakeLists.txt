@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.28)
+cmake_minimum_required(VERSION 3.26)
 
 aux_source_directory(./classes MAIN_CLASSES)
 aux_source_directory(./Equations MAIN_EQUATIONS)

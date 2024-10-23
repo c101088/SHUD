@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.28)
+cmake_minimum_required(VERSION 3.26)
 project(SHUDTest)
 add_definitions(-DTestDataPath="${CMAKE_SOURCE_DIR}/")
 
