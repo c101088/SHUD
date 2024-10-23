@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.26)
 project(SHUDTest)
 add_definitions(-DTestDataPath="${CMAKE_SOURCE_DIR}/")
 
-FIND_PACKAGE(OpenMP REQUIRED)
 find_package(GTest)
 
 
