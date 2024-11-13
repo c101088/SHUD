@@ -12,7 +12,7 @@ add_executable(${PROJECT_NAME}
 )
 target_link_libraries(${PROJECT_NAME}
         GTest::gtest
-        SUNDIALS::cvode_static
+        ${COVDE_LIB}
         SHUD_lib
 )
 

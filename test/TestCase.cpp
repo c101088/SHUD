@@ -10,7 +10,6 @@ protected:
     void SetUp() override {
         filePath = TestDataPath;
     }
-
     void TearDown() override {
     }
 public:

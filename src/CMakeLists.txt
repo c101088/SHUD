@@ -16,7 +16,7 @@ include_directories(
 
 
 add_library(${PROJECT_NAME}_lib STATIC ${MAIN_CLASSES} ${MAIN_EQUATIONS} ${MAIN_MODEL} ${MAIN_MODEL_DATA})
-target_link_libraries(${PROJECT_NAME}_lib SUNDIALS::cvode_static  OpenMP::OpenMP_CXX)
+target_link_libraries(${PROJECT_NAME}_lib ${COVDE_LIB} OpenMP::OpenMP_CXX)
 
 #target_include_directories(${PROJECT_NAME} PUBLIC ${PROJECT_SOURCE_DIR})
 
